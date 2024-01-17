@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-<!--Inherit product.product view form to add field-->
-    <record id="product_normal_form_view" model="ir.ui.view">
-        <field name="name">product.product.view.form.inherit.low.stocks.product.alert</field>
+
+    <record id="product_product_view_form" model="ir.ui.view">
+        <field name="name">product.product.view.form.inherit.low_stocks_product_alert</field>
         <field name="model">product.product</field>
         <field name="inherit_id" ref="product.product_normal_form_view" />
         <field name="arch" type="xml">
@@ -11,4 +11,5 @@
             </field>
         </field>
     </record>
+
 </odoo>
